@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GithubEZFinder</string>
+    <string name="name">Nama</string>
+    <string name="username">Username</string>
+    <string name="repository">%d Repositori</string>
+    <string name="url">URL</string>
+    <string name="share">Bagikan</string>
+    <string name="favorite">Favorit</string>
+    <string name="setting">Pengaturan</string>
+    <string name="bio">Bio</string>
+    <string name="company">Kantor</string>
+    <string name="location">Lokasi</string>
+    <string name="email">Surel</string>
+    <string name="following">%d Mengikuti</string>
+    <string name="followers">%d Pengikut</string>
+    <string name="profile">%s Profil</string>
+    <string name="tabFollowing">Pengikut</string>
+    <string name="tabFollowers">Mengikuti</string>
+    <string name="add_fav">%s Ditambahkan ke Favorit</string>
+    <string name="delete_fav">%s Dihapus dari Favorit</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="find_user">Cari Pengguna Populer</string>
+    <string name="alarm_enabled">Alarm diaktifkan</string>
+    <string name="alarm_canceled">Alarm dibatalkan</string>
+    <string name="search_username">Masukkan Nama Pengguna Disini</string>
+    <string name="appwidget_text">PENGGUNA FAVORIT</string>
+    <string name="empty_text">TIDAK ADA PENGGUNA FAVORIT</string>
+</resources>

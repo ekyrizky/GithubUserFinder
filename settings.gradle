@@ -1,0 +1,3 @@
+include ':myfavorite'
+include ':app'
+rootProject.name = "GithubEZFinder"

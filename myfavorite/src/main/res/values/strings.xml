@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GithubEZFinder</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="favorite">Favorite</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+</resources>

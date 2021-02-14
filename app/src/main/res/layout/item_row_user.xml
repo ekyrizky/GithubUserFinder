@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:paddingVertical="16dp"
+    android:background="@drawable/layout_border">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:src="@android:color/darker_gray"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_avatar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/username"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/img_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/company"
+        android:drawablePadding="4dp"
+        android:textSize="12sp"
+        app:drawableStartCompat="@drawable/baseline_company_black_18dp"
+        app:layout_constraintStart_toEndOf="@+id/img_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_username" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/location"
+        android:drawablePadding="4dp"
+        android:textSize="12sp"
+        app:drawableStartCompat="@drawable/baseline_location_black_18dp"
+        app:layout_constraintStart_toEndOf="@+id/img_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_company" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

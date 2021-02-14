@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GithubEZFinder</string>
+    <string name="name">Nama</string>
+    <string name="username">Username</string>
+    <string name="favorite">Favorit</string>
+    <string name="company">Kantor</string>
+    <string name="location">Lokasi</string>
+</resources>

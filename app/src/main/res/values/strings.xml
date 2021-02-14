@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GithubEZFinder</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="repository">%d Repositories</string>
+    <string name="url">URL</string>
+    <string name="share">Share</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="bio">Bio</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="email">Email</string>
+    <string name="following">%d Following</string>
+    <string name="followers">%d Followers</string>
+    <string name="profile">%s Profile</string>
+    <string name="tabFollowing">Following</string>
+    <string name="tabFollowers">Followers</string>
+    <string name="add_fav">%s Added to Favorite</string>
+    <string name="delete_fav">%s Deleted from Favorite</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="change_language">Change Language</string>
+    <string name="find_user">Find Popular User</string>
+    <string name="alarm_enabled">Alarm has been Enabled</string>
+    <string name="alarm_canceled">Alarm has been Canceled</string>
+    <string name="search_username">Enter Username Here</string>
+    <string name="appwidget_text">FAVORITE USER</string>
+    <string name="empty_text">NO FAVORITE USER</string>
+</resources>
